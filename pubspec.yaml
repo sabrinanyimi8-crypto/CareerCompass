@@ -1,0 +1,25 @@
+name: careercompass
+description: Mobile career guidance app for university students (ITMDA3 project)
+publish_to: 'none'
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.0.0 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^1.0.6
+  firebase_core: ^4.15.0
+  firebase_auth: ^6.7.0
+  cloud_firestore: ^6.10.0
+  google_fonts: ^6.2.1
+  firebase_messaging: ^16.7.0
+  cloud_functions: ^6.5.0
+
+dev_dependencies:
+  flutter_lints: ^3.0.0
+
+
+flutter:
+  uses-material-design: true
